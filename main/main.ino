@@ -119,8 +119,8 @@ Serial.println(ns2009_pos(pos));
 }
 
 
-void set_tft()
-
+void set_tft() {
+  
     panel.freq_write = 60000000;
    
     panel.freq_fill = 60000000;
